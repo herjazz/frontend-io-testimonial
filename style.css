@@ -11,3 +11,20 @@ body {
   font-size: 13px;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
+
+.dan {
+  background-color: hsl(263, 55%, 52%);
+}
+
+.jon {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.pat {
+  background-color: hsl(219, 29%, 14%);
+}
+
+.jean,
+.kira {
+  background-color: hsl(0, 0%, 100%);
+}
