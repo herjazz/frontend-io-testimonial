@@ -6,25 +6,39 @@
   padding: 0;
 }
 
+:root {
+  /* Set color variables */
+  --white: hsl(0, 0%, 100%);
+  --violet: hsl(263, 55%, 52%);
+  --dark-gray-blue: hsl(217, 19%, 35%);
+  --dark-black-blue: hsl(219, 29%, 14%);
+  --light-gray: hsl(0, 0%, 81%);
+  --light-gray-blue: hsl(210, 46%, 95%);
+
+  /* Set dimension variables */
+  --desktop-width: 1030px;
+  --mobile-width: 1030px;
+}
+
 body {
-  background-color: hsl(0, 0%, 81%);
+  background-color: var(--light-gray);
   font-size: 13px;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .dan {
-  background-color: hsl(263, 55%, 52%);
+  background-color: var(--violet);
 }
 
 .jon {
-  background-color: hsl(217, 19%, 35%);
+  background-color: var(--dark-gray-blue);
 }
 
 .pat {
-  background-color: hsl(219, 29%, 14%);
+  background-color: var(--dark-black-blue);
 }
 
 .jean,
 .kira {
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--white);
 }
