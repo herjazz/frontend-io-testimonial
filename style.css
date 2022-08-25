@@ -22,8 +22,7 @@
 
 body {
   background-color: var(--light-gray);
-  font-size: 13px;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font: 500 13px 'Barlow Semi Condensed', sans-serif;
 }
 
 .dan {
