@@ -8,12 +8,12 @@
 
 :root {
   /* Set color variables */
-  --white: hsl(0, 0%, 100%);
-  --violet: hsl(263, 55%, 52%);
-  --dark-gray-blue: hsl(217, 19%, 35%);
-  --dark-black-blue: hsl(219, 29%, 14%);
-  --light-gray: hsl(0, 0%, 81%);
-  --light-gray-blue: hsl(210, 46%, 95%);
+  --white: hsl(0deg 0% 100%);
+  --violet: hsl(263deg 55% 52%);
+  --dark-gray-blue: hsl(217deg 19% 35%);
+  --dark-black-blue: hsl(219deg 29% 14%);
+  --light-gray: hsl(0deg 0% 81%);
+  --light-gray-blue: hsl(210deg 46% 95%);
 
   /* Set dimension variables */
   --desktop-width: 1030px;
@@ -22,7 +22,7 @@
 
 body {
   background-color: var(--light-gray);
-  font: 500 13px 'Barlow Semi Condensed', sans-serif;
+  font: 500 13px "Barlow Semi Condensed", sans-serif;
 }
 
 .dan {
@@ -37,7 +37,8 @@ body {
   background-color: var(--dark-black-blue);
 }
 
-.dan, .jon,
+.dan,
+.jon,
 .pat {
   color: var(--white);
 }
