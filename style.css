@@ -56,6 +56,11 @@ body {
   background-color: var(--white);
 }
 
+.highlight {
+  font-weight: 600;
+  font-size: large;
+}
+
 .quote {
   opacity: 0.7;
 }
