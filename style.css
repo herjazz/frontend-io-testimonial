@@ -31,6 +31,14 @@ main {
   gap: 20px;
 }
 
+.testimonial {
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .dan {
   background-color: var(--violet);
   grid-column: 1 / 3;
