@@ -25,6 +25,12 @@ body {
   font: 500 13px "Barlow Semi Condensed", sans-serif;
 }
 
+main {
+  padding: 5%;
+  display: grid;
+  gap: 20px;  
+}
+
 .testimonial {
   padding: 1rem;
   border-radius: 5px;
@@ -72,9 +78,7 @@ body {
 /* Change to grid if screen size larger than mobile width */
 @media screen and (min-width: 375px) {
   main {
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
   }
 
   .dan {
