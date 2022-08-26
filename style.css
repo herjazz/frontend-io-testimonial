@@ -65,7 +65,7 @@ body {
 }
 
 /* Change to grid if screen size larger than mobile width */
-@media (min-width: var(--mobile-width)) {
+@media screen and (min-width: 375px) {
   main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
