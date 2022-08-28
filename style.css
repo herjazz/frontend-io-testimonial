@@ -27,7 +27,7 @@ body {
 
 main {
   margin: 0 auto;
-  padding: 5rem;
+  padding: 5rem 5rem 2rem;
   max-width: var(--desktop-width);
   display: grid;
   gap: 20px;
@@ -111,7 +111,7 @@ main {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--dark-gray-blue);
 }
 
 /* 2-col layout for medium sized screens */
