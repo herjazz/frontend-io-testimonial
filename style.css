@@ -38,12 +38,12 @@ main {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 3px 15px var(--light-gray);
+  box-shadow: 0 3px 15px var(--light-gray);
 }
 
 .dan {
   background-color: var(--violet);
-  background-image: url(./images/bg-pattern-quotation.svg);
+  background-image: url("./images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
   background-position: 80% top;
 }
@@ -70,7 +70,7 @@ main {
 
 .person {
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     "image name"
     "image verify";
   grid-template-columns: 40px 1fr;
@@ -110,12 +110,12 @@ main {
   main {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .dan,
   .pat {
     order: -1;
   }
-  
+
   .kira {
     grid-column: 1 / -1;
   }
