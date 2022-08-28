@@ -26,16 +26,16 @@ body {
 }
 
 main {
+  margin: 0 auto;
   padding: 5rem;
-  display: grid;
   max-width: var(--desktop-width);
+  display: grid;
   gap: 20px;
 }
 
 .testimonial {
   padding: 1rem;
   border-radius: 5px;
-  min-width: calc(var(--mobile-width) - 25px);
   display: flex;
   flex-direction: column;
   gap: 10px;
