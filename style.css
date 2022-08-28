@@ -83,7 +83,7 @@ main {
   align-self: end;
 }
 
-.person p:nth-child(3) {
+.verify {
   opacity: 0.5;
   grid-area: verify;
   align-self: start;
