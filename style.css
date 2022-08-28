@@ -105,6 +105,15 @@ main {
   margin-block-start: 10px;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 /* 2-col layout for medium sized screens */
 @media screen and (min-width: 650px) and (max-width: 1068px) {
   main {
