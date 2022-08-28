@@ -105,8 +105,24 @@ main {
   line-height: 1.4em;
 }
 
-/* Change layout on larger screens */
-@media screen and (min-width: 768px) {
+/* 2-col layout for medium sized screens */
+@media screen and (min-width: 650px) and (max-width: 1068px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .dan,
+  .pat {
+    order: -1;
+  }
+  
+  .kira {
+    grid-column: 1 / -1;
+  }
+}
+
+/* wider layout for big screens */
+@media screen and (min-width: 1069px) {
   main {
     grid-template-columns: repeat(4, 1fr);
   }
