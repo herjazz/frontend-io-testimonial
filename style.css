@@ -39,11 +39,14 @@ main {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  box-shadow: 0px 48px 100px 0px var(--light-gray);
+  box-shadow: 0px 3px 15px var(--light-gray);
 }
 
 .dan {
   background-color: var(--violet);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 80% top;
 }
 
 .jon {
@@ -103,7 +106,7 @@ main {
 }
 
 /* Change layout on larger screens */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 375px) {
   main {
     grid-template-columns: repeat(4, 1fr);
   }
