@@ -16,7 +16,7 @@
   --light-gray-blue: hsl(210deg 46% 95%);
 
   /* Set dimension variables */
-  --desktop-width: 1030px;
+  --desktop-width: 1440px;
   --mobile-width: 375px;
 }
 
@@ -28,6 +28,7 @@ body {
 main {
   padding: 5rem;
   display: grid;
+  max-width: var(--desktop-width);
   gap: 20px;
 }
 
