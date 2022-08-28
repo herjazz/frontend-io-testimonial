@@ -63,6 +63,10 @@ main {
   background-color: var(--white);
 }
 
+.person p:nth-child(3) {
+  opacity: 0.5;
+}
+
 .mugshot {
   border-radius: 50%;
 }
@@ -76,11 +80,7 @@ main {
   opacity: 0.7;
 }
 
-.person p:nth-child(3) {
-  opacity: 0.5;
-}
-
-/* Change to grid if screen size larger than mobile width */
+/* Change layout on larger screens */
 @media screen and (min-width: 375px) {
   main {
     grid-template-columns: repeat(4, 1fr);
