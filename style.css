@@ -39,7 +39,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  box-shadow: 0px 3px 15px var(--light-gray);
+  box-shadow: 0px 48px 100px 0px var(--light-gray);
 }
 
 .dan {
@@ -103,7 +103,7 @@ main {
 }
 
 /* Change layout on larger screens */
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 500px) {
   main {
     grid-template-columns: repeat(4, 1fr);
   }
