@@ -23,6 +23,10 @@
 body {
   background-color: var(--light-gray-blue);
   font: 500 13px "Barlow Semi Condensed", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 main {
